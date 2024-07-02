@@ -1,4 +1,351 @@
-# 《深入理解Cobalt Strike》
+<h1 align="center">
+  Cobaltstrike Tools & Resources collection
+</h1>
+
+***
+
+<div align="center"> 
+   [Google translation from Chinese original text] 
+</div>
+
+***
+<h2 align="center">
+ 《In-depth understanding of Cobalt Strike》
+</h2> 
+
+![Getshell](https://socialify.git.ci/Getshell/CobaltStrike/image?description=1&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
+
+This is a collection of excellent CobaltStrike content, including excellent resource tools or excellent project codes. Most of the tools in this project do not detect whether there is a backdoor, so they must be run under a virtual machine. The CobaltStrike idea is an improvement for attackers. Author: [0e0w](https://github.com/0e0w)
+
+This project was created on August 3, 2021. The last update was on August 4, 2023.
+
+- [01-CobaltStrike resources](https://github.com/0e0w/Cobalt-Strike#0x01-cobaltstrike%E8%B5%84%E6%BA%90)
+- [02-CobaltStrike program](https://github.com/0e0w/Cobalt-Strike#0x02-cobaltstrike%E7%A8%8B%E5%BA%8F)
+- [03-CobaltStrike functions](https://github.com/0e0w/Cobalt-Strike#0x03-cobaltstrike%E5%8A%9F%E8%83%BD)
+- [04-CobaltStrike extensions](https://github.com/0e0w/Cobalt-Strike#0x04-cobaltstrike%E6%89%A9%E5%B1%95)
+- [05-CobaltStrike Research](https://github.com/0e0w/Cobalt-Strike#0x05-cobaltstrike%E7%A0%94%E7%A9%B6)
+- [06-CobaltStrike Modification](https://github.com/0e0w/Cobalt-Strike#0x06-cobaltstrike%E9%AD%94%E6%94%B9)
+- [07-CobaltStrike Anti-Kill](https://github.com/0e0w/Cobalt-Strike#0x07-cobaltstrike%E5%85%8D%E6%9D%80)
+- [08-CobaltStrike Reference](https://github.com/0e0w/Cobalt-Strike#0x08-cobaltstrike%E5%8F%82%E8%80%83)
+
+## 01-CobaltStrike Resources
+
+- https://github.com/search?q=CobaltStrike
+- https://github.com/topics/cobalt-strike
+- https://github.com/topics/cobaltstrike
+
+1. Official Manual
+- [ ] https://download.cobaltstrike.com/downloads/csmanual44.pdf
+
+2. Basic Tutorial
+- [ ] https://wiki.wgpsec.org/knowledge/intranet/Cobalt-Strike.html
+
+3. Video Tutorial
+
+4. Other resources
+- [ ] https://github.com/S1ckB0y1337/Cobalt-Strike-CheatSheet
+- [ ] https://github.com/cisagov/ansible-role-cobalt-strike
+- [ ] https://github.com/hattmo/c2profilejs
+- [ ] https://github.com/jan-call/Cobaltstrike-Plugins
+- [ ] https://github.com/REW-sploit/REW-sploit
+- [ ] https://github.com/geemion/Khepri
+- [ ] [【Knowledge Review】Cobalt Strike 4.0 Certification and patching process](https://rcoil.me/2020/11/%E3%80%90%E7%9F%A5%E8%AF%86%E5%9B%9E%E9%A1%BE%E3%80%91Cobalt%20Strike%204.0%E8%AE%A4%E8%AF%81%E5%8F%8A%E4%BF%AE%E8%A1%A5%E8%BF%87%E7%A8%8B/)
+- [ ] [CobaltStrike4.0 Hook-free brute force Cracked License idea](https://ca3tie1.github.io/post/cobaltstrike40-wu-hook-man-li-cracked-license-si-lu/)
+- [ ] https://github.com/Tw1sm/HTTPS-MalleableC2-Config
+- [ ] https://github.com/bashexplode/cs2webconfig
+- [ ] https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence
+- [ ] https://github.com/cisagov/teamserver-packer
+- [ ] https://github.com/Cerbersec/DomainBorrowingC2
+- [ ] https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/
+- [ ] https://github.com/XRSec/Docker-CobaltStrike
+- [ ] https://wbglil.gitbook.io/cobalt-strike
+- [ ] https://github.com/akkuman/EvilEye
+- [ ] https://github.com/wsummerhill/CobaltStrike_RedTeam_CheatSheet
+- [ ] https://github.com/splunk/melting-cobalt
+- [ ] https://github.com/AlphabugX/csOnvps
+- [ ] https://github.com/warhorse/ansible-role-cobaltstrike-docker
+- [ ] https://github.com/kluo84/CS-notes
+- [ ] https://github.com/lovechoudoufu/cobaltstrike4.4_cdf
+- [ ] https://www.anquanke.com/post/id/269539
+- [ ] https://github.com/rmartinsanta/cs-dns-parser
+- [ ] https://github.com/outflanknl/C2-Tool-Collection
+- [ ] https://xz.aliyun.com/t/11404
+- [ ] https://tttang.com/archive/1631
+- [ ] https://xz.aliyun.com/t/11508
+- [ ] https://tttang.com/archive/1662
+- [ ] https://bbs.pediy.com/thread-273749.htm
+- [ ] https://www.anquanke.com/post/id/278690
+- [ ] https://xz.aliyun.com/t/11662
+- [ ] https://github.com/XXC385/Cobalt-Strike-Start
+- [ ] https://www.anquanke.com/post/id/285270
+- [ ] https://xz.aliyun.com/t/12094
+- [ ] https://www.secpulse.com/archives/196736.html
+
+## 02-CobaltStrike program
+
+## 03-CobaltStrike functions
+
+## 04-CobaltStrike extensions
+
+- https://github.com/zer0yu/Awesome-CobaltStrike
+IV. BOFs: Beacon Object Files
+- https://github.com/BOFs/BOFs
+- https://github.com/Cerbersec/KillDefenderBOF
+V. Aggressor Scripts
+- https://github.com/topics/aggressor
+- [ ] https://github.com/001SPARTaN/aggressor_scripts
+- [ ] https://github.com/0x727/AggressorScripts_0x727
+- [ ] https://github.com/harleyQu1nn/AggressorScripts
+- [ ] https://github.com/bluscreenofjeff/AggressorScripts
+- [ ] https://github.com/jordanpotti/opsec-aggressor
+- [ ] https://github.com/mgeeky/cobalt-arsenal
+- [ ] https://github.com/Cobalt-Strike/beacon_health_check
+- [ ] https://github.com/RCStep/CSSG
+- [ ] https://github.com/Verizon/redshell
+- [ ] https://github.com/EspressoCake/Aggressor_Scripts
+- [ ] https://github.com/darkoperator/vscode-language-aggressor
+- [ ] https://github.com/threatexpress/cobaltstrike_payload_generator
+- [ ] https://github.com/outflanknl/HelpColor
+- [ ] https://github.com/capt-meelo/Beaconator
+- [ ] https://github.com/NVISOsecurity/cobalt-strike-notifier
+- [ ] https://github.com/FortyNorthSecurity/AggressorAssessor
+- [ ] https://github.com/outflanknl/Dumpert
+- [ ] https://github.com/killswitch-GUI/CobaltStrike-ToolKit
+- [ ] https://github.com/Und3rf10w/Aggressor-scripts
+- [ ] https://github.com/vysecurity/Aggressor-VYSEC
+- [ ] https://github.com/rasta-mouse/Aggressor-Script
+- [ ] https://github.com/422926799/csplugin
+- [ ] https://github.com/Peco602/cobaltstrike-aggressor-scripts
+- Online reminder
+- [ ] [CS_Mail_Tip](https://github.com/0x50j/CS_Mail_Tip)
+- [ ] WeChatPush
+- [ ] https://github.com/Daybr4ak/C2ReverseProxy
+- [ ] https://github.com/teamssix/dingding_cs_notice
+- [ ] https://github.com/lintstar/CS-PushPlus
+- [ ] https://github.com/lintstar/CS-ServerChan
+- Persistent online
+- [ ] https://github.com/0xthirteen/StayKit
+- [ ] https://github.com/TheKingOfDuck/XSS-Fishing2-CS
+- [ ] https://github.com/yanghaoi/CobaltStrike_CNA
+- [ ] https://github.com/improsec/SharpEventPersist
+- [ ] https://github.com/Richard-Tang/Tomcat2CS
+- Virtual online
+- [ ] https://github.com/Doneone/happy_cs
+- Privilege escalation
+- [ ] weichi
+- [ ] [ElevateKit](https://github.com/rsmudge/ElevateKit)
+- [ ] [Aggressor-Script](https://github.com/rasta-mouse/Aggressor-Script)
+- [ ] [SweetPotato_CS](https://github.com/Tycx2ry/SweetPotato_CS)
+- Vulnerability Scanning
+- [ ] [CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
+- [ ] [CVE-2020-0796](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
+- [ ] [MS17-010](https://github.com/phink-team/Cobaltstrike-MS17-010)
+- Traffic Tunneling
+- [ ] [UploadAndRunFrp](https://github.com/Ch1ngg/AggressorScript-UploadAndRunFrp)
+- [ ] https://github.com/m3rcer/Chisel-Strike
+- Trace Cleanup
+- [ ] [EventLogMaster](https://github.com/QAX-A-Team/EventLogMaster)
+- [ ] [Phant0m_cobaltstrike](https://github.com/p292/Phant0m_cobaltstrike)
+- Near-source attack
+- [ ] https://github.com/AdminTest0/badusb_cobaltstrike
+VI. Kit
+- [x] [神器獬廌](https://github.com/BOFs/HAETAE)
+- [ ] https://github.com/Te-k/cobaltstrike
+- [ ] https://github.com/S1ckB0y1337/Cobalt-Strike-CheatSheet
+- [ ] https://github.com/RedXRanger/StageStrike
+- [ ] https://github.com/outflanknl/Zipper
+- [ ] https://github.com/Ridter/CS_Chinese_support
+- [ ] https://github.com/0xthirteen/MoveKit
+- [ ] https://github.com/SecIdiot/Beacon
+- [ ] https://github.com/xx0hcd/Malleable-C2-Profiles
+- [ ] https://github.com/Ridter/cs_custom_404
+- [ ] https://github.com/nccgroup/pybeacon
+- [ ] https://github.com/Skactor/cs-scripts
+- [ ] https://www.svenbeast.com/post/ny5NkDd40
+- [ ] https://github.com/j5s/Automatic-permission-maintenance
+- [ ] https://github.com/mgeeky/RedWarden
+- [ ] https://github.com/Lz1y/GECC
+- [ ] https://github.com/Daybr4ak/C2ReverseProxy
+- [ ] https://github.com/Twi1ight/CSAgent
+- [ ] https://github.com/ORCA666/Cobalt-Wipe
+- [ ] https://github.com/xorrior/raven
+- [ ] https://github.com/xinbailu/TiEtwAgent
+- [ ] https://github.com/GeorgePatsias/ScareCro
+- [ ] https://github.com/burpheart/CS_mock
+- [ ] https://github.com/huoji120/CobaltStrikeDetected
+- [ ] https://github.com/Mikasazero/Cobalt-Strike
+- [ ] https://github.com/D1sAbl4/samdump
+- [ ] https://github.com/ASkyeye/CobaltPatch
+- [ ] https://github.com/boku7/halosgate-ps
+- [ ] https://github.com/CCob/BeaconEye
+- [ ] https://github.com/Sentinel-One/CobaltStrikeParser
+- [ ] https://github.com/hariomenkel/CobaltSpam
+- [ ] https://github.com/cisagov/ansible-role-cobalt-strike
+- [ ] https://github.com/dcsync/pycobalt
+- [ ] https://github.com/optiv/Registry-Recon
+- [ ] https://github.com/wgpsec/Automatic-permission-maintenance
+- [ ] https://github.com/Kara-4search/APC_ShellcodeExecution_CSharp
+- [ ] https://github.com/fitzgeralddaniel/HTTP_File_Covert_Channel
+- [ ] https://github.com/med0x2e/SigFlip
+- [ ] https://github.com/mstxq17/CVE-2021-1675_RDL_LPE
+- [ ] https://github.com/CPO-EH/SharpZeroLogon
+- [ ] https://github.com/wikiZ/service_cobaltstrike
+- [ ] https://github.com/chryzsh/ansible-role-cobalt-strike
+- [ ] https://github.com/kingz40o/Aggressor_dingding
+- [ ] https://github.com/howmp/CobaltStrikeDetect
+- [ ] https://github.com/JUICY00000/HellLoader
+- [ ] https://github.com/Peithon/JustC2file
+- [ ] https://github.com/Yihsiwei/SearchForCS
+- [ ] https://github.com/hlldz/Phant0m
+- [ ] https://github.com/JDArmy/RPCSCAN
+- [ ] https://github.com/Cracked5pider/KaynStrike
+- [ ] https://github.com/kyleavery/AceLdr
+- [ ] https://github.com/matthieu-hackwitharts/UnhookMe
+- [ ] https://github.com/ScriptIdiot/BOF-patchit
+- [ ] https://github.com/nopbrick/SeeProxy
+- [ ] https://github.com/WKL-Sec/HiddenDesktop
+- [ ] https://github.com/mertdas/PrivKit
+
+## 05-CobaltStrike Research
+
+I. Reverse Analysis
+- [ ] https://github.com/verctor/Cobalt_Homework
+
+II. Source Code Reading
+
+III. Program Features
+- [ ] https://github.com/WBGlIl/Beacon_re
+- [ ] https://github.com/NoOne-hub/Beacon.dll
+
+## 06-CobaltStrike Modification
+Why do we need to modify the program? What contents need to be modified? How to modify the program?
+
+1. Feature modification
+
+2. Traffic anti-killing
+
+3. Function addition
+
+4. Other magic changes
+- [ ] https://mp.weixin.qq.com/s/AePKPUDnBUr4WbJqvPCleg
+- [ ] https://github.com/Yang0615777/SecondaryDevCobaltStrike
+- [ ] https://github.com/mai1zhi2/SharpBeacon
+- [ ] https://github.com/HKirito/GoogleAuth
+- [ ] https://github.com/Cobalt-Strike/sleep_python_bridge
+- [ ] https://github.com/bestspear/SharkOne
+
+## 07-CobaltStrike anti-killing
+
+- https://github.com/jimsonzhang/Ortau
+
+1. Traffic anti-killing
+- [ ] https://github.com/timwhitez/Doge-CSBridge
+
+2. Online anti-killing
+- https://github.com/0e0w/BypassAV
+- [ ] https://github.com/hack2fun/BypassAV
+- [ ] https://github.com/Cliov/Arsenal
+- [ ] https://github.com/Gality369/CS-Loader
+- [ ] https://github.com/timwhitez/Doge-Loader
+- [ ] https://paper.seebug.org/1349/
+- [ ] https://github.com/t3hbb/NSGenCS
+- [ ] https://github.com/GeorgePatsias/ScareCrow-CobaltStrike
+- [ ] https://wiki.ioin.in/url/G7PK
+- [ ] https://github.com/novysodope/Myloader
+
+## 08-CobaltStrike Reference
+
+- https://www.cobaltstrike.com
+
+[![Stargazers over time](https://starchart.cc//BOFs/CobaltStrike.svg)](https://starchart.cc/BOFs/CobaltStrike)
+
+***
+***
+
+<div align="center">
+[Chinese Original Text]
+</div>
+
+***
+***
+<div align="center">
+# 《深入理解Cobalt Strike》- [ ] https://xz.aliyun.com/t/12094
+- [ ] https://github.com/dcsync/pycobalt
+- [ ] https://github.com/optiv/Registry-Recon
+- [ ] https://github.com/wgpsec/Automatic-permission-maintenance
+- [ ] https://github.com/Kara-4search/APC_ShellcodeExecution_CSharp
+- [ ] https://github.com/fitzgeralddaniel/HTTP_File_Covert_Channel
+- [ ] https://github.com/med0x2e/SigFlip
+- [ ] https://github.com/mstxq17/CVE-2021-1675_RDL_LPE
+- [ ] https://github.com/CPO-EH/SharpZeroLogon
+- [ ] https://github.com/wikiZ/service_cobaltstrike
+- [ ] https://github.com/chryzsh/ansible-role-cobalt-strike
+- [ ] https://github.com/kingz40o/Aggressor_dingding
+- [ ] https://github.com/howmp/CobaltStrikeDetect
+- [ ] https://github.com/JUICY00000/HellLoader
+- [ ] https://github.com/Peithon/JustC2file
+- [ ] https://github.com/Yihsiwei/SearchForCS
+- [ ] https://github.com/hlldz/Phant0m
+- [ ] https://github.com/JDArmy/RPCSCAN
+- [ ] https://github.com/Cracked5pider/KaynStrike
+- [ ] https://github.com/kyleavery/AceLdr
+- [ ] https://github.com/matthieu-hackwitharts/UnhookMe
+- [ ] https://github.com/ScriptIdiot/BOF-patchit
+- [ ] https://github.com/nopbrick/SeeProxy
+- [ ] https://github.com/WKL-Sec/HiddenDesktop
+- [ ] https://github.com/mertdas/PrivKit
+
+## 05-CobaltStrike Research
+
+1. Reverse analysis
+- [ ] https://github.com/verctor/Cobalt_Homework
+
+2. Source code reading
+
+3. Program characteristics
+- [ ] https://github.com/WBGlIl/Beacon_re
+- [ ] https://github.com/NoOne-hub/Beacon.dll
+
+## 06-CobaltStrike magic modification
+
+Why is magic reform needed? What content needs to be modified? How to perform program magic modification?
+
+1. Feature modification
+
+2. Traffic protection
+
+3. Function addition
+
+4. Other magic modifications
+- [ ] https://mp.weixin.qq.com/s/AePKPUDnBUr4WbJqvPCleg
+- [ ] https://github.com/Yang0615777/SecondaryDevCobaltStrike
+- [ ] https://github.com/mai1zhi2/SharpBeacon
+- [ ] https://github.com/HKirito/GoogleAuth
+- [ ] https://github.com/Cobalt-Strike/sleep_python_bridge
+- [ ] https://github.com/bestspear/SharkOne
+
+## 07-CobaltStrike no kill
+
+- https://github.com/jimsonzhang/Ortau
+
+1. Traffic protection
+- [ ] https://github.com/timwhitez/Doge-CSBridge
+
+2. Free of killing when online
+- https://github.com/0e0w/BypassAV
+- [ ] https://github.com/hack2fun/BypassAV
+- [ ] https://github.com/Cliov/Arsenal
+- [ ] https://github.com/Gality369/CS-Loader
+- [ ] https://github.com/timwhitez/Doge-Loader
+- [ ] https://paper.seebug.org/1349/
+- [ ] https://github.com/t3hbb/NSGenCS
+- [ ] https://github.com/GeorgePatsias/ScareCrow-CobaltStrike
+- [ ] https://wiki.ioin.in/url/G7PK
+- [ ] https://github.com/novysodope/Myloader
+
+## 08-CobaltStrike Reference
+
+- https://www.cobaltstrike.com
 
 ![Getshell](https://socialify.git.ci/Getshell/CobaltStrike/image?description=1&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
 
