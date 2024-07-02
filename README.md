@@ -268,84 +268,10 @@ Why do we need to modify the program? What contents need to be modified? How to 
 
 ***
 ***
-<div align="center">
-# 《深入理解Cobalt Strike》- [ ] https://xz.aliyun.com/t/12094
-- [ ] https://github.com/dcsync/pycobalt
-- [ ] https://github.com/optiv/Registry-Recon
-- [ ] https://github.com/wgpsec/Automatic-permission-maintenance
-- [ ] https://github.com/Kara-4search/APC_ShellcodeExecution_CSharp
-- [ ] https://github.com/fitzgeralddaniel/HTTP_File_Covert_Channel
-- [ ] https://github.com/med0x2e/SigFlip
-- [ ] https://github.com/mstxq17/CVE-2021-1675_RDL_LPE
-- [ ] https://github.com/CPO-EH/SharpZeroLogon
-- [ ] https://github.com/wikiZ/service_cobaltstrike
-- [ ] https://github.com/chryzsh/ansible-role-cobalt-strike
-- [ ] https://github.com/kingz40o/Aggressor_dingding
-- [ ] https://github.com/howmp/CobaltStrikeDetect
-- [ ] https://github.com/JUICY00000/HellLoader
-- [ ] https://github.com/Peithon/JustC2file
-- [ ] https://github.com/Yihsiwei/SearchForCS
-- [ ] https://github.com/hlldz/Phant0m
-- [ ] https://github.com/JDArmy/RPCSCAN
-- [ ] https://github.com/Cracked5pider/KaynStrike
-- [ ] https://github.com/kyleavery/AceLdr
-- [ ] https://github.com/matthieu-hackwitharts/UnhookMe
-- [ ] https://github.com/ScriptIdiot/BOF-patchit
-- [ ] https://github.com/nopbrick/SeeProxy
-- [ ] https://github.com/WKL-Sec/HiddenDesktop
-- [ ] https://github.com/mertdas/PrivKit
 
-## 05-CobaltStrike Research
-
-1. Reverse analysis
-- [ ] https://github.com/verctor/Cobalt_Homework
-
-2. Source code reading
-
-3. Program characteristics
-- [ ] https://github.com/WBGlIl/Beacon_re
-- [ ] https://github.com/NoOne-hub/Beacon.dll
-
-## 06-CobaltStrike magic modification
-
-Why is magic reform needed? What content needs to be modified? How to perform program magic modification?
-
-1. Feature modification
-
-2. Traffic protection
-
-3. Function addition
-
-4. Other magic modifications
-- [ ] https://mp.weixin.qq.com/s/AePKPUDnBUr4WbJqvPCleg
-- [ ] https://github.com/Yang0615777/SecondaryDevCobaltStrike
-- [ ] https://github.com/mai1zhi2/SharpBeacon
-- [ ] https://github.com/HKirito/GoogleAuth
-- [ ] https://github.com/Cobalt-Strike/sleep_python_bridge
-- [ ] https://github.com/bestspear/SharkOne
-
-## 07-CobaltStrike no kill
-
-- https://github.com/jimsonzhang/Ortau
-
-1. Traffic protection
-- [ ] https://github.com/timwhitez/Doge-CSBridge
-
-2. Free of killing when online
-- https://github.com/0e0w/BypassAV
-- [ ] https://github.com/hack2fun/BypassAV
-- [ ] https://github.com/Cliov/Arsenal
-- [ ] https://github.com/Gality369/CS-Loader
-- [ ] https://github.com/timwhitez/Doge-Loader
-- [ ] https://paper.seebug.org/1349/
-- [ ] https://github.com/t3hbb/NSGenCS
-- [ ] https://github.com/GeorgePatsias/ScareCrow-CobaltStrike
-- [ ] https://wiki.ioin.in/url/G7PK
-- [ ] https://github.com/novysodope/Myloader
-
-## 08-CobaltStrike Reference
-
-- https://www.cobaltstrike.com
+<h1 align="center">
+  《深入理解Cobalt Strike》
+</h1>
 
 ![Getshell](https://socialify.git.ci/Getshell/CobaltStrike/image?description=1&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
 
